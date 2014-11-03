@@ -1,0 +1,180 @@
+/*
+  Theme Name: Max
+  Version: 0.1
+  Author: mec0825
+  Author URI: http://www.mec0825.net
+*/
+
+/*--------------------Global--------------------*/
+
+.codecolorer-container {
+    width:800px;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width:800px;
+    padding:0 60px;
+    margin:0 auto;
+}
+
+body {
+    background-color: #FFF;
+    color: #444;
+    font-family: 
+    "Classic Grotesque W01",
+    Arial,
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a,button.submit {
+    color: #555;
+    text-decoration: none;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+a:hover,a:active {
+    color:#00a9da;
+}
+
+/*--------------------Header--------------------*/
+
+#header {
+    padding: 60px 0 60px 0;
+    text-align: center;
+}
+
+.description {
+    margin: 0;
+    color: #999;
+}
+
+#logo {
+    font:bold 44px/1.22 "Times New Roman",
+    Georgia,
+    Times,
+    sans-serif;
+    color:#555;
+}
+#logo span{
+    color:#00a9da;
+}
+#logo:hover {
+    color:#00a9da;
+}
+
+/*--------------------Poster--------------------*/
+
+.post {
+    padding: 36px 0 0;
+}
+
+.post-title {
+    margin: 0;
+    color: #555;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.post-content {
+    font-size: 17px;
+    line-height: 1.92;
+    color: #444;
+    padding-top: 28px;
+}
+
+.post-meta {
+    margin: 10px 0 0 0;
+    color: #999;
+    text-align: left;
+    display: block;
+    font-size: 14px;
+}
+
+.page-navigator {
+    text-align: left;
+    list-style: none;
+    margin-top: 32px;
+    padding: 30px 0 0;
+    font-size: 16px;
+    border-top: 1px solid #ddd;
+}
+
+a.previous {
+    float: left;
+}
+
+a.next {
+    float: right;
+}
+
+/*--------------------Footer--------------------*/
+
+#footer {
+    color: #999;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+
+a.love {
+    color:#f73c42;
+}
+
+/*--------------------.React--------------------*/
+
+ @media print, screen and (max-width:1290px) {
+    .container {
+        width:800px;
+    }
+}
+@media print, screen and (max-width:1057px) {
+    .container {
+        width:auto;
+    }
+    .post-content {
+        font-size: 16px;
+    }
+}
+@media print, screen and (max-width:860px) {
+    .post-content {
+        font-size: 15px;
+    }
+    .post-content img {
+        max-width:100%;
+        margin-left: 0;
+    }
+}
+@media print, screen and (max-width:680px) {
+    .container {
+        padding:0 20px;
+    }
+    .post-title {
+        font-size:22px;
+    }
+    .post-content img {
+        padding:0.2em 0;
+    }
+    .post {
+        padding:27px 0 0;
+    }
+}
+@media print, screen and (max-width:500px) {
+    .post-content-pages {
+        font-size: 14px;
+    }
+}
